@@ -3,7 +3,6 @@ print("==============GUESS THE NUMBER==============")
 print("---> 1 to 100")
 import random
 num = random.randint(1,100)
-print(num)
 while True:
     guess = input("Guess the number or [Q] to Quit :")
     if(guess == "Q"):
